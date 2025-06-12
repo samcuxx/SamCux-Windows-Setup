@@ -1,0 +1,99 @@
+# Windows 11 Desktop Setup Repository - .gitignore
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Windows specific folders
+System Volume Information/
+Recovery/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Personal files (add your specific personal files here)
+# Example: personal-settings.txt
+
+# Large files that shouldn't be in git
+*.iso
+*.img
+*.exe
+*.dmg
+*.pkg
+
+# Sensitive configuration files
+config.ini
+secrets.txt
+.env
+.env.local
+.env.production
+
+# Application specific
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# macOS (if working on macOS)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Archives
+*.7z
+*.rar
+*.zip
+*.tar.gz
+
+# Personal customizations (uncomment if you want to exclude)
+# 04-Customizations/Mouse-Cursors/
+# 06-Screenshots/
+
+# Cache and temporary directories
+cache/
+tmp/
+temp/
+
+# Documentation drafts
+drafts/
+*.draft.md 

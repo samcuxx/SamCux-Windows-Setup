@@ -1,0 +1,1 @@
+{"mode":"intersected","foregroundWindowOnly":1,"excludedPrograms[0]":"","primaryMonitorOnly":1,"oldTaskbarOnWin11":0}
